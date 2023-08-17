@@ -22,5 +22,15 @@ public class demo {
      play.playMusic();
      String result =play.getMePen(3);
      System.out.println(result);
+     calculator obj = new calculator();
+     int r1 = obj.add(3,4);
+     System.out.println(r1);
+    }
+}
+class calculator{
+
+    public int add(int n1, int n2){
+        
+        return n1 + n2;
     }
 }
